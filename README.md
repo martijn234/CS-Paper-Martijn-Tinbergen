@@ -1,4 +1,4 @@
-# CS-Paper-Martijn_Tinbergen
+# CS-Paper-Martijn-Tinbergen
 This project implements the Scalable Duplicate Detection with Pre-selection Method (SDDPM), leveraging LSH with dropout and TF-IDF-based feature selection to address the challenges of duplicate detection in e-commerce. The dataset employed for this study comprises 1624 descriptions of televisions
 originating from four web shops. It can be accessed at: https://personal.eur.nl/frasincar/datasets/TVs-all-merged.zip.
 The provided code is written in Python.
