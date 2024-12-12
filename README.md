@@ -4,3 +4,4 @@ originating from four web shops. It can be accessed at: https://personal.eur.nl/
 The provided code is written in Python.
 We start with data cleaning. For every product, the title is used to extract important model words using TF-IDF scores and obtain a binary vector representation for
 each product. The binary vectors are transformed into a signature vector through the process of min-hashing. These signature vectors are used to obtain candidate duplicate pairs using LSH with a drop-out mechanism. Lastly, hierarchical complete-linkage clustering is used to obtain the final set of duplicates.
+At the end of the code, you'll find the main function, which integrates all other functions to execute the entire algorithm in one step.
